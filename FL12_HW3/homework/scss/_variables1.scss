@@ -1,0 +1,48 @@
+$color-map: (
+        color-dunkel-1: #21232E,
+        color-dunkel-2: #3B3F50,
+        color-dunkel-3: #2D2F3C,
+        color-white-1: #FFFFFF,
+        color-white-2: rgba(255, 255, 255, .7),
+        color-blue: #12A0C7,
+        color-green: #699900,
+        color-orange: #FF4F33,
+        color-yellow: #E3AC02,
+);
+
+$font-map: (
+        font-source-sans-pro: 'Source Sans Pro',
+        font-fresca: 'Fresca',
+        font-hind: 'Hind',
+);
+
+$font-logo: map-get($font-map, font-fresca), sans-serif;
+
+$font-color-header: map-get($color-map, color-white-1);
+$font-color-logo-header: map-get($color-map, color-white-1);
+$font-color-section-banner-heading: map-get($color-map, color-white-1);
+$font-color-section-text: map-get($color-map, color-white-1);
+
+$background-color-main: map-get($color-map, color-dunkel-1);
+
+$background-image: url(../img/m-h-night.jpg);
+
+$highlight-color-for-text: map-get($color-map, color-orange);
+
+$color-button: map-get($color-map, color-yellow);
+
+$font-basic: map-get($font-map, font-source-sans-pro), sans-serif;
+$font-footer-center_area: map-get($font-map, font-hind), sans-serif;
+$font-footer-right_area: map-get($font-map, font-hind), sans-serif;
+$font-banner: map-get($font-map, font-hind), sans-serif;
+$font-weight-logo: 100;
+$font-color-basic: map-get($color-map, color-dunkel-3);
+$font-color-footer: map-get($color-map, color-white-2);
+$font-color-card-header: map-get($color-map, color-white-1);
+$font-color-card-text: map-get($color-map, color-white-2);
+$font-color-banner-text: map-get($color-map, color-white-2);
+$background-color-footer: map-get($color-map, color-dunkel-2);
+$background-color-section-card: map-get($color-map, color-dunkel-2);
+
+$direction: #D99E0A;
+$color-stops: #99374B;
